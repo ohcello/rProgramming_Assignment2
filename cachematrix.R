@@ -1,5 +1,5 @@
 ## This function computes the inverse of the special "matrix" returned by `makeCacheMatrix` above. If the inverse has already been 
-## calculated (and the matrix has not changed), then `cacheSolve` should retrieve the inverse from the cache.
+## calculated (and the matrix has not changed), then `cacheSolve` should retrieve the inverse from the cache. OK
 
 makeCacheMatrix <- function(x = matrix()) {      #This is an OBJECT which takes in a matrix and returns a list of 4 function/methods (set, get, setinverse, and getinverse)
         m<-NULL
